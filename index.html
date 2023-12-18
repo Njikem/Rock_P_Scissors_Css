@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom_RPS</title>
+
+<link rel="stylesheet" href="/style/style.css">
+
+
+
+
+
+</head>
+<body>
+
+
+    <h4 class="title">Rock Paper Scirssors</h4>
+
+    <h5>Creating a score</h5>
+        
+
+    <button onclick="
+    playGame('rock');
+
+    " class="move-icon"><img src="/images/rock_image.jpg" alt="rock-image"></button> 
+
+
+
+    <button onclick="
+
+    playGame('paper');
+ 
+    " class="move-icon-one"><img src="/images/paper_image.jpg" alt="paper-image"></button> 
+
+
+
+    <button onclick="
+
+     playGame('scissors');
+
+    " class="move-icon-one"><img src="/images/scissors_image.jpg" alt="scissors-image"></button> 
+
+
+
+   <!--This p tags are going to show the result and computer moves on the page-->
+
+   <p class="js-result result">You Win.</p>
+   <p class="js-moves">
+    
+   </p>
+
+   <p class="js-score score"></p>
+
+
+
+   <button onclick="
+   score.wins = 0;
+   score.losses = 0;
+   score.ties = 0;
+
+   localStorage.removeItem('score');
+
+   // update the reset score button by calling the updateScoreElement. this will reset the score back to zero. This will reset the score on the page by reseting it back to zero.
+   updateScoreElement();
+   " class="reset-button">Reset Score</button>
+
+
+
+   
+   
+   
+
+
+    
+    <script src="/js/app.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+
+
+
+    <div style="margin-top: 50px; margin-bottom: 90px;">
+
+        <h4>YouTube Subscribed Button</h4>
+        
+        <button  class="js-subscribe-button"  onclick="
+        //Call the function
+        let subscribed = subscribe();
+        
+        ">Subscribe</button>
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div style="margin-top: 50px; margin-bottom: 90px;">
+
+            <h4>YouTube Subscribed Button</h4>
+            
+            <button  class="js-subscribe-button"  onclick="
+            
+            let buttonElement = document.querySelector('.js-subscribe-button');
+            
+            //To check if the Text inside the button is subscribe
+            
+            if(buttonElement.innerHTML === 'Subscribe'){
+            
+                //This will change the text to subscribed
+            
+            buttonElement.innerHTML ='Subscribed';    
+            
+            }else {
+            
+            //Else it will change it back to subscribe
+                buttonElement.innerHTML = 'Subscribe';
+            }
+            
+            ">Subscribe</button>
+            
+            </div>
+
+
+
+
+
+    <script>
+
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: arial;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img{
+    height:120px;
+    background-color: transparent;
+    border: 3px solid;
+    border-color: white;
+    width: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor:pointer;
+
+}
+
+.result{
+    font-size: 25x;
+    font-weight: bold;
+    margin: 50px;
+
+}
+
+
+.score{
+    margin-top: 60px;
+}
+
+
+.reset-button{
+
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor:pointer;
+
+}
